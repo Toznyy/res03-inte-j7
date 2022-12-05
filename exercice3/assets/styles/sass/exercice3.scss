@@ -1,0 +1,22 @@
+@import "vars";
+@import "reset";
+
+body {
+    width:100vw;
+    height:100vh;
+    
+    section {
+        width:1200px;
+        height:630px;
+        background-image:url("https://res03.sites.3wa.io/assets/files/inte/j7/starwarsdark.jpg");
+        background-position:right;
+        overflow-y:scroll;
+        
+        p {
+            color:yellow;
+            font-size:5em;
+            text-align:center;
+            line-height:1.5em;
+        }
+    }
+}

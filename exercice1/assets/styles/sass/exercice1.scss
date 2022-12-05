@@ -1,0 +1,13 @@
+@import "vars";
+@import "reset";
+
+body {
+    width:100vw;
+    height:100vh;
+    
+    section {
+        width:630px;
+        height:600px;
+        background-image:url("https://res03.sites.3wa.io/assets/files/inte/j7/starwars.jpg");
+    }
+}
