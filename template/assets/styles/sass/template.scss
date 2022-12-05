@@ -1,0 +1,14 @@
+@import "vars";
+@import "reset";
+
+body {
+    
+    header {
+        height:70vh;
+        display:grid;
+        grid-template-rows: 1fr 2.5fr;
+        background: linear-gradient( 135deg, rgb(52, 82, 255, 0.8) 0%, rgb(255, 16, 83, 0.8) 100%),url("https://cdn.discordapp.com/attachments/1044536849626058862/1049261954025406514/inner-pagebg.jpg");
+        background-repeat:no-repeat;
+        background-size : cover;
+    }
+}
